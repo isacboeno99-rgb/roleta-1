@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#650914">
+  <meta name="description" content="Gire a roleta de Natal da BEBELA Pratas e Semi-Joias e descubra seu presente.">
+  <title>BEBELA | Roleta de Natal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <div class="snow-layer" id="snow" aria-hidden="true"></div>
+
+  <div class="christmas-decor" aria-hidden="true">
+  <div class="branch branch-left"></div><div class="branch branch-right"></div>
+  <div class="hanging hanging-a"><i></i></div><div class="hanging hanging-b"><i></i></div>
+  <div class="hanging hanging-c"><i></i></div><div class="hanging hanging-d"><i></i></div>
+  <div class="bottom-greenery bottom-left"></div><div class="bottom-greenery bottom-right"></div>
+</div>
+<div class="mascot-stage" aria-hidden="true"><img class="mascot-corner" src="assets/mascote-original.png" alt="Mascote natalina da BEBELA" loading="eager"></div><main class="page-shell">
+    <header class="brand"><div class="brand-gem" aria-hidden="true">◇</div>
+      <div class="santa-hat" aria-hidden="true">
+        <svg viewBox="0 0 170 118" role="presentation">
+          <defs>
+            <linearGradient id="hatRed" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#c52a3a"/>
+              <stop offset=".48" stop-color="#8b0c1c"/>
+              <stop offset="1" stop-color="#52000c"/>
+            </linearGradient>
+            <linearGradient id="hatFur" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#fff"/>
+              <stop offset="1" stop-color="#ddd7d7"/>
+            </linearGradient>
+          </defs>
+          <path d="M14 82 C24 45 52 10 91 9 C120 8 145 26 151 48 C136 45 119 53 111 70 C92 88 52 96 14 82Z" fill="url(#hatRed)" stroke="#650713" stroke-width="2"/>
+          <path d="M13 80 C40 91 82 87 111 69 C126 60 139 49 151 48 C145 70 126 88 99 97 C67 108 31 101 13 90Z" fill="url(#hatFur)" stroke="#d2c9c9" stroke-width="2"/>
+          <path d="M28 78 C48 86 79 83 105 69" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+          <circle cx="153" cy="50" r="16" fill="url(#hatFur)" stroke="#d4cccc" stroke-width="2"/>
+          <circle cx="147" cy="43" r="4" fill="#fff" opacity=".9"/>
+        </svg>
+      </div>
+      <p class="brand-name">BEBELA</p>
+      <div class="brand-subtitle"><span></span>PRATAS E SEMI-JOIAS<span></span></div>
+    </header>
+
+    <section class="game" aria-labelledby="headline">
+<div class="hero-copy"><p class="hero-kicker">Roleta de</p><p class="hero-natal">Natal</p><p class="hero-cta">Gire a roleta e concorra<br><strong>a prêmios incríveis!</strong></p><p class="hero-luck">Boa sorte! ♡</p></div>
+      <h1 id="headline" class="sr-only">Gire a roleta de Natal e boa sorte!</h1>
+      
+
+      <div class="wheel-wrap">
+        <div class="pointer" aria-hidden="true"><span></span></div>
+        <div class="wheel-rim">
+          <div class="wheel" id="wheel" role="img" aria-label="Roleta com quatro prêmios: vale-compras de cem reais, comprou ganhou outro, dez por cento de desconto e brinco em prata 925.">
+            <div class="wheel-label label-top">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 18 24 7l16 11v23H8zM8 18h32M17 18v23m14-23v23M24 7v11" /></svg>
+              <strong>Vale-compras</strong><b>de R$ 100,00</b>
+            </div>
+            <div class="wheel-label label-right">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 17h32l-2 27H10zM17 17v-5a7 7 0 0 1 14 0v5" /><path class="heart" d="M24 35s-8-5-8-10a4 4 0 0 1 8-1 4 4 0 0 1 8 1c0 5-8 10-8 10z"/></svg>
+              <strong>Comprou,</strong><strong>ganhou outro</strong><small>(Verificar opções<br>disponíveis)</small>
+            </div>
+            <div class="wheel-label label-bottom">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 15 17 6h25v25l-9 11H8zM17 6v9H8m24-2h.1" /><path d="M17 31l14-13M19 20h.1M29 30h.1" /></svg>
+              <strong>10% OFF</strong><b>na sua próxima<br>compra</b>
+            </div>
+            <div class="wheel-label label-left">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M4 16 13 6h22l9 10-20 26zM4 16h40M13 6l11 36L35 6M13 6l11 10L35 6" /></svg>
+              <strong>Brinco em</strong><strong>prata 925</strong>
+            </div>
+            <div class="wheel-center" aria-hidden="true">
+              <svg viewBox="0 0 64 48"><path d="M32 24C20 5 4 8 9 20c4 9 17 7 23 4 6-3 19-5 23-4 5-12-11-15-23 4Zm0 0C20 43 4 40 9 28c4-9 17-7 23-4 6 3 19 5 23 4 5 12-11 15-23-4Z" /></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="hint" id="hint">Um presente especial pode estar esperando por você.</p>
+      <button class="spin-button" id="spinButton" type="button">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M39 17A17 17 0 0 0 9 13L5 18m0 0V8m0 10h10M9 31a17 17 0 0 0 30 4l4-5m0 0v10m0-10H33"/></svg>
+        <span id="buttonText">GIRAR AGORA</span><span aria-hidden="true">♥</span>
+      </button>
+      <p class="fine-print">◷ &nbsp; 1 giro a cada 24 horas</p>
+    </section>
+
+    <footer class="footer">BEBELA <span>•</span> PRATAS E SEMI-JOIAS</footer>
+  </main>
+
+  <div class="modal-backdrop" id="resultModal" hidden>
+    <section class="result-modal" role="dialog" aria-modal="true" aria-labelledby="resultTitle">
+      <button class="modal-close" id="closeModal" type="button" aria-label="Fechar">×</button>
+      <div class="modal-snow" aria-hidden="true">❄</div>
+      <p class="eyebrow">UM PRESENTE DE NATAL PARA VOCÊ</p>
+      <h2 id="resultTitle">Parabéns!</h2>
+      <div class="result-divider"><span></span>♥<span></span></div>
+      <p class="result-prize" id="resultPrize"></p>
+      <p class="result-copy" id="resultCopy">Aproveite seu presente especial da BEBELA.</p>
+      <button class="modal-button" id="confirmResult" type="button">MARAVILHA!</button>
+      <p class="modal-note">Seu resultado fica salvo neste dispositivo por 24 horas.</p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
