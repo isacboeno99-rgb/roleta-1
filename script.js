@@ -151,7 +151,7 @@
   function createSnow() {
     const layer = document.getElementById("snow");
     if (!layer) return;
-    const mobile = window.matchMedia("(max-width: 600px)").matches;
+    icon.src = "floco-ciano.svg";
     const count = mobile ? 30 : 46;
 
     for (let i = 0; i < count; i++) {
