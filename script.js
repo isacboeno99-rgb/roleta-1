@@ -167,7 +167,7 @@
       flake.style.setProperty("--opacity", `${.42 + Math.random() * .5}`);
       flake.style.setProperty("--spark-delay", `${-Math.random() * 2.8}s`);
       const icon = document.createElement("img");
-      icon.src = "icon.src = "floco-ciano.svg";
+      icon.src = "floco-ciano.svg";
       icon.alt = "";
       icon.draggable = false;
       flake.appendChild(icon);
